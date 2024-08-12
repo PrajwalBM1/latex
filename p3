@@ -1,0 +1,45 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{graphicx}
+\usepackage{geometry}
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        \large\textbf{Bapuji Institute of Engineering Technology, Davangere}\\ 
+        
+        \vspace{0.4cm}
+        \includegraphics[width=0.2\textwidth]{vtu.png}
+        
+       \vspace{0.4cm}
+        \large VISHWESRAYA INSTITUTE OF TECH \\
+        \vspace{1cm}
+    
+        \large\textbf{Project on:}\\
+        \vspace{0.4cm}
+        \textbf{COVID-19}
+        
+        \vspace{1cm}
+        \small  Submitted in partial fulfillment of the requirements for the fourth Semester degree of Bachelor of Engineering in information Science Engineering of Visvesvaraya Technological University, Belagavi\\
+
+        \vspace{1cm}
+        \large{INFORMATION SCIENCE AND TECH}
+              
+        \vspace{1cm}
+        \textbf{\Large by}
+        
+\vspace{0.4cm}
+\textbf{\Large Prajwal BM}\\ % Replace with your name
+\textbf{\Large 4BD22IS190} 
+
+\vspace{1cm}
+\textbf{\Large Prof. patil} % Replace with your guide's name
+
+%\vspace{0.5cm}
+\vspace{1cm}
+{\Large Your Co-guide's Name (if any)} % Replace with your co-guide's name, if any
+
+\vspace{1cm}
+{\Large 4th Semester, 2024} % Replace with semester and year
+        
+    \end{center}
+\end{titlepage}
+\end{document}
