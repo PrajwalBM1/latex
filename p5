@@ -3,9 +3,7 @@
 \usepackage{multirow}
 \begin{document}
 \begin{center}
-\begin{Large}
-\textbf{Table Demo}
-\end{Large}
+\textbf {\large TABLE DEMO}
 \end{center}
 \section*{Marks Table}
 \begin{tabular}{|c|c|c|c|c|c|}
