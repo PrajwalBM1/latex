@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \begin{document}
+
 \section*{Subfigure Demo} 
 \begin{figure}[h]
      \centering
