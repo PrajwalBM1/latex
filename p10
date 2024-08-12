@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{tikz} 
+\begin{document}
+ \centering 
+  \section*{Simple tree diagram using tikz library}
+  
+ \tikzstyle{level 1}=[level distance=4cm, sibling distance=6cm]
+ \tikzstyle{level 2}=[level distance=4cm, sibling distance=3cm] 
+
+ \begin{tikzpicture} [every node/.style = {shape=rectangle, rounded corners, draw, align=center}]
+ \node {Root}
+ child {
+ node {Child 1} 
+ child {
+ node {Subchild 1}
+ }
+ child {
+ node {Subchild 2}
+ }
+ }
+ child {
+ node {Child 2} 
+ child {
+ node {Subchild 1}
+ }
+ child {
+ node {Subchild 2}
+ }
+ };
+ \end{tikzpicture} 
+\end{document}
