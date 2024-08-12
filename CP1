@@ -1,0 +1,23 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textit{GNU PROJECT}}
+\lfoot{\textit{bapuji institue of engg and tech}}
+\rfoot{\thepage}
+\begin{document}
+\section{WHAT IS GNU?}
+.
+.
+\section{MORE ABOUT GNU}
+.
+.
+\section{WHAT IS FREE SOFTWARE?}
+.
+.
+\begin{itemize}
+    \item    
+    \item    
+    \item     
+\end{itemize}
+\end{document}
