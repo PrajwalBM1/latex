@@ -1,0 +1,23 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fancyhdr}
+\usepackage[right=2cm,left=2cm,bottom=2cm,top=2cm]{geometry}
+\usepackage{lipsum}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textit{first program in latex.}}
+\lfoot{\textit{bapuji institue of engg and tech}}
+\rfoot{\thepage}
+\begin{document}
+\section{WHAT IS LATEX?}
+laTex is a typesetting system widley used for creating documents that require high quality formating, such as acadmaics,techincal report, book, presentation, etc.
+\lipsum[1]
+\section{FEATURES OF LATEX:}
+\begin{itemize}
+    \item high quality typesetting
+    \item document structure
+    \item mathmetical notation
+    \item biblography managment
+    \item customization
+    \item consistency
+\end{itemize}
+\end{document}
