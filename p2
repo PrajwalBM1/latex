@@ -1,0 +1,23 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{lipsum}
+\usepackage[right=2cm,left=2cm,bottom=2cm,top=2cm]{geometry}
+\begin{document}
+\begin{center}
+    \large\textbf{ABOUT NEWS}
+
+    \vspace{0.4cm}
+    \large Importance of news
+
+    \vspace{0.4cm}
+    \textbf{Author:prajwal}
+
+    \vspace{0.4cm}
+    \textbf{Abstract}
+\end{center}
+ News has become an important mediam for everyone to stay updated and informed.ksdhbfajdfn akjnfksd fkjsndf kjdnfoja dfkjnadkf akdf.
+
+ \lipsum[1].
+
+ \lipsum[2].
+ 
+\end{document}
