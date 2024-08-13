@@ -1,31 +1,32 @@
 \documentclass{article}
-\usepackage{tikz} 
+\usepackage{tikz}
 \begin{document}
- \centering 
-  \section*{Simple tree diagram using tikz library}
-  
- \tikzstyle{level 1}=[level distance=4cm, sibling distance=6cm]
- \tikzstyle{level 2}=[level distance=4cm, sibling distance=3cm] 
+\begin{center}
+\Large{\textbf{Hierarchy of Linux distributions}}
+\end{center}
+\begin{figure}[h]
+    \centering
+\begin{tikzpicture} [every node/.style = {shape=rectangle, rounded corners, draw}]
+  \path
+    node (root)[red] {GNU/Linux}
+    [sibling distance=45mm, ]
+    child {node [cyan] {Debian} 
+    [sibling distance=25mm, ]
+    	child { node [cyan] {Ubuntu} }
+    	child { node [cyan] {Linux Mint} }
+    }
+    child {node [magenta] {RedHat}
+    [sibling distance=25mm, level distance=25mm]
+    	child { node [magenta] {Fedora} }
+    	child { node [magenta] {OpenSuse} }    
+    }
+    child {node [blue] {Arch}
+	[sibling distance=25mm, level distance=25mm] 
+		child { node [blue]{Manjaro} }
+		child { node [blue]{EndeavourOS} }   
+    };
 
- \begin{tikzpicture} [every node/.style = {shape=rectangle, rounded corners, draw, align=center}]
- \node {Root}
- child {
- node {Child 1} 
- child {
- node {Subchild 1}
- }
- child {
- node {Subchild 2}
- }
- }
- child {
- node {Child 2} 
- child {
- node {Subchild 1}
- }
- child {
- node {Subchild 2}
- }
- };
- \end{tikzpicture} 
+\end{tikzpicture}
+ \caption{GNU/Linux Operating System Family}
+\end{figure}
 \end{document}
